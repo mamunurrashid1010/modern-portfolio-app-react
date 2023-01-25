@@ -50,7 +50,7 @@ export const Banner = () =>{
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{'Hi i am Mamun Rashid '}<span>{text}</span></h1>
+                        <h1>{'Hi i am Mamun Rashid '}<span className="wrap" style={{color:'#efb70f'}}>{text}</span></h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                         <button onClick={()=>console.log('connect')}>Let's connect <ArrowRightCircle size={25} /> </button>
                     </Col>
