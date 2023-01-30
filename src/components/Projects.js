@@ -87,7 +87,8 @@ export const Projects = () => {
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
-              </div>}
+              </div>
+              }
             </TrackVisibility>
           </Col>
         </Row>
